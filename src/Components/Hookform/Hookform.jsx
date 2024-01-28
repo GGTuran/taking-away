@@ -3,14 +3,14 @@
 const Hookform = () => {
     return (
         <div>
-            form  onSubmit={handleSubmit}>
+             <form  onSubmit={handleSubmit}>
                 <input type="text" name="name" />
                 <br />
-                <input type="email" name="email"  />
+                <input type="email" name="email" id="" />
                 <br />
-                <input type="text" name="phone"  />
+                <input type="password" name="password" id="" />
                 <br />
-                <input type="password" value="password" />
+                <input type="submit" value="Submit" />
             </form>
         </div>
     );
