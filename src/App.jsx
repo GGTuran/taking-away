@@ -1,6 +1,6 @@
 
 import './App.css'
-import StatefulForm from './Components/StatefulForm/StatefulForm'
+// import StatefulForm from './Components/StatefulForm/StatefulForm'
 // import SimpleForm from './Components/SimpleForm/SimpleForm'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       
       <h1>Forming</h1>
       {/* <SimpleForm></SimpleForm> */}
-      <StatefulForm></StatefulForm>
+      {/* <StatefulForm></StatefulForm> */}
       
     </>
   )
