@@ -1,10 +1,20 @@
+import { useRef } from "react";
 
 
 const RefForm = () => {
+
+    const nameRef = useRef(null);
+
+
+    const handleSubmit = e =>{
+        e.preventDefault();
+        console.log(nameRef.current.value)
+
+    }
     return (
         <div>
             <form  onSubmit={handleSubmit}>
-                <input type="text" name="name" />
+                <input ref={nameRef} type="text" name="name" />
                 <br />
                 <input 
                
