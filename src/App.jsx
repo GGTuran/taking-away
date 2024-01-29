@@ -1,5 +1,6 @@
 
 import './App.css'
+import Grandpa from './Components/Grandpa/Grandpa'
 import ReusableForm from './Components/ReusableForm/ReusableForm'
 // import Hookform from './Components/Hookform/Hookform'
 // import Hookform from './Components/Hookform/Hookform'
@@ -24,6 +25,8 @@ const handleUpdateProfile = data =>{
     <>
       
       <h1>Forming</h1>
+
+      <Grandpa></Grandpa>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StatefulForm></StatefulForm> */}
       {/* <RefForm></RefForm> */}
