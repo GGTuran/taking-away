@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
 import Brother from "../Brother/Brother";
 import Myself from "../Myself/Myself";
 import Sister from "../Sister/Sister";
 
-const Dad = () => {
+const Dad = ({asset}) => {
     return (
         <div>
             <h2>Dad</h2>
@@ -14,5 +15,7 @@ const Dad = () => {
         </div>
     );
 };
-
+Dad.propTypes = {
+    asset:PropTypes.array.isRequired
+}
 export default Dad;
