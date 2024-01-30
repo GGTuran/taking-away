@@ -8,7 +8,7 @@ const Dad = ({asset}) => {
         <div>
             <h2>Dad</h2>
             <section className="flex">
-            <Myself>   </Myself>
+            <Myself asset={asset}>   </Myself>
             <Brother></Brother>
             <Sister></Sister>
             </section>
