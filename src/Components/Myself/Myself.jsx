@@ -13,9 +13,7 @@ const Myself = ({asset}) => {
             
            </section>
            <h1>boy he is gonna get some</h1>
-           <button>
-            spank
-           </button>
+           
            <p>Net money:{money}</p>
            <button onClick={() => setMoney(money+1000)} > Add money!!</button>
         </div>
