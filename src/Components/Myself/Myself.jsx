@@ -12,7 +12,7 @@ const Myself = ({asset}) => {
             <Special asset={asset}></Special>
             
            </section>
-           <h1>boy he is gonna</h1>
+           
            
            <p>Net money:{money}</p>
            <button onClick={() => setMoney(money+1000)} > Add money!!</button>
