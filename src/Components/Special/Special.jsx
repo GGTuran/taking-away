@@ -9,7 +9,7 @@ const Special = ({asset}) => {
             <h2>Special person  {queen}</h2>
             <p>Has {asset}</p>
             
-            <p>bar ache</p>
+            
         </div>
     );
 };
