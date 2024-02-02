@@ -18,6 +18,7 @@ const Myself = ({asset}) => {
            <button onClick={() => setMoney(money+1000)} > Add money!!</button>
            <p>gg</p>
            <p>hakka</p>
+           <p>she is pissed</p>
 
         </div>
     );
