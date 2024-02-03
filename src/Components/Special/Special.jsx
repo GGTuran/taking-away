@@ -9,7 +9,6 @@ const Special = ({asset}) => {
             <h2>Special person  {queen}</h2>
             <p>Has {asset}</p>
             <p>speciaal</p>
-            <p>que</p>
             
             
         </div>
