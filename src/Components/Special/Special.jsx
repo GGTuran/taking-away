@@ -8,7 +8,7 @@ const Special = ({asset}) => {
         <div>
             <h2>Special person  {queen}</h2>
             <p>Has {asset}</p>
-            
+            <p>speciaal</p>
             
             
         </div>
