@@ -7,6 +7,7 @@ const Cousin = ({name}) => {
             <p>{name}</p>
             <p>chini na</p>
             <p>ektakeo</p>
+            <p>hudai</p>
         </div>
     );
 };
