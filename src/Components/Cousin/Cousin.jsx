@@ -6,7 +6,7 @@ const Cousin = ({name}) => {
             <h2>Cousin</h2>
             <p>{name}</p>
             <p>chini na</p>
-            <p>ektakeo</p>
+            
             
         </div>
     );
