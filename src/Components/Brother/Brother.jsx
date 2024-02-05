@@ -12,7 +12,7 @@ const Brother = () => {
             <button>money:{setMoney}</button>
             <p>set {money}</p>
             <p>set {money}</p>
-            <p>set {money}</p>
+            
         </div>
     );
 };
