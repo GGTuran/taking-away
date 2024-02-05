@@ -11,7 +11,7 @@ const Brother = () => {
             <p>does not have {honey}</p>
             <button>money:{setMoney}</button>
             <p>set {money}</p>
-            <p>set {money}</p>
+            <
             
         </div>
     );
