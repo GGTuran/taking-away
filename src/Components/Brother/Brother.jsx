@@ -3,13 +3,14 @@ import { AssetContext, MoneyContext } from "../Grandpa/Grandpa";
 
 
 const Brother = () => {
-    const money = useContext(AssetContext)
-    const [mopney , setMoney] = useContext(MoneyContext)
+    const honey = useContext(AssetContext)
+    const [money , setMoney] = useContext(MoneyContext)
     return (
         <div>
             <h2>Brother</h2>
-            <p>does not have {money}</p>
+            <p>does not have {honey}</p>
             <button>money:{setMoney}</button>
+            <p>set {money}</p>
         </div>
     );
 };
